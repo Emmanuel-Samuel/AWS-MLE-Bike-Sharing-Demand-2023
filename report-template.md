@@ -18,13 +18,13 @@ column was dropped from the train and test datasets.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 TODO: Add your explanation
-My score of 1.79771, improved to 0.52315.
+My score of -53.129976, improved to -59.920385.
 This was because additional features were added which made the model to have a better understanding of the datetime column
 not as just numbers. Where new features of hour, month and day were used and datetime column was dropped.
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-TODO:  It was slightly decreased from 0.52315 to 0.53490.
+TODO:  It was slightly decreased from -59.920385 to -74.004717.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 TODO: More time on feature engineering with exploratory data analysis
@@ -40,7 +40,7 @@ TODO: More time on feature engineering with exploratory data analysis
 
 TODO: Replace the image below with your own.
 
-![model_train_score.png](/img/model_test_score.png)
+![model_train_score.png](/img/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
